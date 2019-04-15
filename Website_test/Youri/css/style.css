@@ -1,0 +1,11 @@
+/* Style van de HomePage */
+
+/* Custom Font */
+@font-face {
+    font-family: "pixel";
+    src: url("fonts/pixel.TTF");
+}
+
+.pixel{
+    font-family: "pixel";
+}

@@ -1,79 +1,74 @@
-@charset "UTF-8";
-/* Nav balk */
-ul 
+/*############ ID ############*/
+
+#HeaderMain
 {
-	list-style: none;
+	background: url(../media/aquarium_gif.gif) center center fixed;
+	background-size: cover;
+	min-height: 70vh;
 }
 
-body, ul, li 
+iframe
 {
-	margin: 0;
-	padding: 0;
+	margin-left: 30vw;
+	margin-top: 15vh;
 }
 
-body 
+@font-face 
 {
-	font-family: 'Comfortaa', cursive;
+    font-family: "pixel";
+    src: url("fonts/pixel.TTF");
 }
 
-main 
+html {
+  scroll-behavior: smooth;
+}
+
+/*############ Class #############*/
+
+/*Font*/
+.pixel
 {
-	padding: 30px;
+    font-family: "pixel";
 }
 
-header, nav, main 
+
+
+/*Slider*/
+.fotoSlid
 {
-	display: block;
-	border-bottom: 3px solid #D3D3D3;
-    width: 100%;
-    
+	height: 50vh !important;
+	width: 50vw !important;
 }
 
-a
+.Slid
 {
-	color: white;
+	height: 50vh !important;
+	width: 50vw !important;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15vh;
+	margin-bottom: 5vh;
 }
 
-a:hover
+.infoDiv
 {
-	transition: 1000ms;
-	color: crimson;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-top: 20px;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	margin-bottom: 5vh;
+	margin-top: 10vh;
+	 box-shadow: 3px 3px 10px 3px #888888;
+	border: 1px black solid;
+	border-radius: 5px;
 }
 
-
-
-header 
+.infoDiv > h2
 {
-	background-color: #333;
+	text-align: center;
+	font-family: "pixel";
+    src: url("fonts/pixel.TTF");
 }
 
-header nav a 
-{
-	text-decoration: none;
-	color: white;
-}
 
-/*Nav Block*/
-
-header li 
-{
-	display: inline-block;
-	background-color: #333;	
-    float: left;
-    text-align: center;
-    width: 25%;	
-}
-
-header nav a 
-{	
-	display: block;
-	padding: 16px;
-	color: #D3D3D3;
-	width: 100%;	
-}
-header nav a:hover 
-{
-	background-color: #333;
-	color: #A9A9A9;
-	text-decoration: none;
-}
